@@ -12,7 +12,7 @@ include_directories(include)
 set(CMAKE_BUILD_TYPE "Release")
 
 # 相当于到src/msg中寻找CMakeLists.txt文件,将文件编译到对应的文件夹中
-add_subdirectory(src/msg)
+add_subdirectory(msg)
 
 # 生成动态库
 # add_library(msg SHARED src/msg/msg.cpp)
