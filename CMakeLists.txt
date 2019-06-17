@@ -17,6 +17,8 @@ add_subdirectory(msg)
 # 生成动态库
 # add_library(msg SHARED src/msg/msg.cpp)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ./exec)
+
 # 生成可执行文件
 add_executable(${PROJECT_NAME} ${DIR_SRCS})
 
